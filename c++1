@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n1, n2, n3, promedio ;
+    cout << "ingrese un numero:" << endl;
+    cin >> n1;
+        if (n1 >= 0 && n1 <= 10) {
+            cout << "ingrese otro numero" << endl;
+            cin >> n2;
+            if (n2 >= 0 && n2 <= 10) {
+                cout << "ingrese el ultimo numero" << endl;
+                cin >> n3;
+
+                if (n3 >= 0 && n3 <= 10) {
+                    promedio = (n1 + n2 + n3) / 3;
+                    cout << "el promedio es" << endl;
+                    cout << promedio;
+
+                }
+                else {
+                    cout << "numero incorrecto" << n3 << "no esta en el rango" << endl;
+                    
+                }
+            }
+            else {
+                cout << "numero incorrecto" << n2 << "no esta en el rango" << endl;
+            }
+        }
+        else {
+            cout << "numero incorrecto" << n1 << "no esta en el rango" << endl;
+        }
+    
+}
