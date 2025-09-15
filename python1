@@ -1,0 +1,11 @@
+print ('Ingrese un numero A')
+A = input("ingrese el valor de A:")
+print ("el valor de A es:",A)
+print ("ingrese un numero B")
+B= input("ingrese el valor de B:")
+print("el valor de B es:",B)
+C=A 
+A=B 
+B=C 
+print("el valor de nuevo de A es:",A)
+print("el valor de nuevo de B es",B)
