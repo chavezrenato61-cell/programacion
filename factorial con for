@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i, factorial, n;
+    do {
+        cout << "dame el valor de n:" << endl;
+        cin >> n;
+    } while (n < 0);
+    factorial = 1;
+    for(i=1; i<=n; i++) {
+        factorial = factorial * i;
+    }
+    cout << "el factorial de " << n << "es" << factorial << endl;
+}
