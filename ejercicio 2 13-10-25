@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int monto, total;
+    float descuento;
+    do{
+        cout<<"ingrese el monto: "<<endl;
+        cin>>monto;
+    }while(monto<0);
+    if(monto>300){
+        descuento=monto*0.10;
+        total=monto-descuento;
+    }
+    else{
+        total=monto;
+    }
+    cout<<"el total a pagar es:"<< total << endl;
+    
+}
